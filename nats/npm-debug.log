@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'pub',
+1 verbose cli   '250' ]
+2 info using npm@3.10.10
+3 info using node@v7.2.1
+4 verbose run-script [ 'prepub', 'pub', 'postpub' ]
+5 info lifecycle nats@1.0.0~prepub: nats@1.0.0
+6 silly lifecycle nats@1.0.0~prepub: no script for prepub, continuing
+7 info lifecycle nats@1.0.0~pub: nats@1.0.0
+8 verbose lifecycle nats@1.0.0~pub: unsafe-perm in lifecycle true
+9 verbose lifecycle nats@1.0.0~pub: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;D:\queue\nats\node_modules\.bin;C:\Users\eridem\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27;C:\Python27\Scripts;C:\Python36\Scripts;C:\Python36;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files (x86)\Skype\Phone;C:\Users\eridem\AppData\Local\Android\android-sdk\tools;C:\Users\eridem\AppData\Local\Android\android-sdk\platform-tools;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\dotnet;C:\ProgramData\chocolatey\lib\Elixir\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Ruby22-x64\bin;C:\Users\eridem\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\eridem\AppData\Roaming\npm;C:\Users\eridem\AppData\Local\Yarn\.bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+10 verbose lifecycle nats@1.0.0~pub: CWD: D:\queue\nats
+11 silly lifecycle nats@1.0.0~pub: Args: [ '/d /s /c', 'node ./lib/pub.js "250"' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:173:13)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:200:44)
+13 verbose cwd D:\queue\nats
+14 error Windows_NT 10.0.14393
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "pub" "250"
+16 error node v7.2.1
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

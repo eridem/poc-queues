@@ -1,0 +1,17 @@
+{
+  "name": "nats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pub": "node ./lib/pub.js",
+    "sub": "node ./lib/sub.js",
+    "win-start-seed": ".\\bin\\gnatsd.exe -D -config ./conf/seed.conf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^0.7.10"
+  }
+}
